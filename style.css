@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Botar imagem no fundo */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('notas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #f1faee;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #f1faee;
+}
+
+.bloco {
+    background-color: #457b9d;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #eef1b7;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #e76f51;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.btn-cadastrar,
+.btn-adicionar {
+    background-color: #f4a261;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top: 20px;
+    color: #1d3557;
+}
+
+.btn-adicionar:hover {
+    background-color: #e9c46a;
+}
+
+.btn-editar {
+    background-color: #a8dadc;
+    color: #1d3557;
+}
+
+.btn-editar:hover {
+    background-color: #8ecae6;
+}
+
+.btn-deletar {
+    background-color: #e76f51;
+    color: white;
+}
+
+.btn-deletar:hover {
+    background-color: #d62828;
+}
+
+th {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    background-color: #f1faee;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mensagem-status {
+    background-color: #457b9d;
+    color: #f1faee;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 370px;
+    margin-right: 370px;
+    border: 1px solid #eef1b7;
+    border-radius: 5px;
+    text-align: center;
+}
